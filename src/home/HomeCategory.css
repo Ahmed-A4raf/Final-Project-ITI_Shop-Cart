@@ -1,0 +1,85 @@
+
+.carousel-3-items .carousel-item {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-3-items .carousel-item .row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .category-item {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .category-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .category-inner:hover {
+    transform: scale(1.05);
+  }
+  
+  .category-thumb img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .category-content {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .cate-icon {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .category-content h6 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+  background-color: #0024f3; 
+  border-radius: 50%; /
+}
+
+.carousel-control-next-icon::before,
+.carousel-control-prev-icon::before {
+  font-size: 1.5rem; 
+
+  color: #fff; 
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(1); 
+}  
+.mycate{
+    background-color: #eee;
+  }
+  .lab-btn{
+    background-color: transparent;
+    border: 2px solid #FFE040;
+  
+  }
+  .lab-btn span{
+    color: black!important;
+  }
+  .lab-btn:hover{
+    background-color: #FFE040;
+  }
