@@ -7,37 +7,37 @@ const desc = "Buy products on your any device with our app & enjoy your time wha
 
 const clientsList = [
 {
-imgUrl: '/src/assets/images/clients/avater.jpg',
+imgUrl: '/images/clients/avater.jpg',
 imgAlt: 'education thumb rajibraj91 rajibraj',
 text: 'Join with Us',
 },
 {
-imgUrl: '/src/assets/images/clients/avater.jpg',
+imgUrl: '/images/clients/avater.jpg',
 imgAlt: 'education thumb rajibraj91 rajibraj',
 text: 'Join with Us',
 },
 {
-imgUrl: '/src/assets/images/clients/avater.jpg',
+imgUrl: '/images/clients/avater.jpg',
 imgAlt: 'education thumb rajibraj91 rajibraj',
 text: 'Join with Us',
 },
 {
-imgUrl: '/src/assets/images/clients/avater.jpg',
+imgUrl: '/images/clients/avater.jpg',
 imgAlt: 'education thumb rajibraj91 rajibraj',
 text: 'Join with Us',
 },
 {
-imgUrl: '/src/assets/images/clients/avater.jpg',
+imgUrl: '/images/clients/avater.jpg',
 imgAlt: 'education thumb rajibraj91 rajibraj',
 text: 'Join with Us',
 },
 {
-imgUrl: '/src/assets/images/clients/avater.jpg',
+imgUrl: '/images/clients/avater.jpg',
 imgAlt: 'education thumb rajibraj91 rajibraj',
 text: 'Join with Us',
 },
 {
-imgUrl: '/src/assets/images/clients/avater.jpg',
+imgUrl: '/images/clients/avater.jpg',
 imgAlt: 'education thumb rajibraj91 rajibraj',
 text: 'Join with Us',
 },
@@ -62,7 +62,7 @@ const LocationSprade = () => {
                     <span>{val.text}</span>
                   </Link>
                   <div className="client-thumb">
-                    <img src={val.imgUrl} alt="" />
+                    <img src={val.imgUrl} alt={val.imgAlt} />
                   </div>
                 </div>
               ))

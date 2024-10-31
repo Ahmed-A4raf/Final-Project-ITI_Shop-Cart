@@ -16,8 +16,8 @@ const AppSection = () => {
 
         <div className='section-wrapper'>
           <ul className='lab-ul'>
-            <li><a href="#"><img src="/src/assets/images/app/01.jpg" alt="" /></a></li>
-            <li><a href="#"><img src="/src/assets/images/app/02.jpg" alt="" /></a></li>
+            <li><a href="#"><img src="/images/app/01.jpg" alt="" /></a></li>
+            <li><a href="#"><img src="/images/app/02.jpg" alt="" /></a></li>
           </ul>
         </div>
       </div>

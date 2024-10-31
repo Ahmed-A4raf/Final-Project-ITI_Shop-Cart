@@ -11,22 +11,22 @@ import { Autoplay } from "swiper/modules";
 
 const sponsorList = [
   {
-    imgUrl: "/src/assets/images/sponsor/01.png",
+    imgUrl: "/images/sponsor/01.png",
   },
   {
-    imgUrl: "/src/assets/images/sponsor/02.png",
+    imgUrl: "/images/sponsor/02.png",
   },
   {
-    imgUrl: "/src/assets/images/sponsor/03.png",
+    imgUrl: "/images/sponsor/03.png",
   },
   {
-    imgUrl: "/src/assets/images/sponsor/04.png",
+    imgUrl: "/images/sponsor/04.png",
   },
   {
-    imgUrl: "/src/assets/images/sponsor/05.png",
+    imgUrl: "/images/sponsor/05.png",
   },
   {
-    imgUrl: "/src/assets/images/sponsor/06.png",
+    imgUrl: "/images/sponsor/06.png",
   },
 ];
 
@@ -67,7 +67,7 @@ const Sponsor = () => {
                   <SwiperSlide key={i}>
                     <div className="sponsor-item">
                       <div className="sponsor-thumb">
-                        <img src={val.imgUrl} alt="" />
+                        <img src={val.imgUrl} alt="image" />
                       </div>
                     </div>
                   </SwiperSlide>
